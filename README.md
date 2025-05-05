@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of benchmarks, evaluations, and testing frameworks for AI agents and frontier models. This resource tracks the capabilities of increasingly sophisticated AI systems, providing insights into progress toward artificial general intelligence (AGI).
+A curated list of benchmarks, evaluations, and testing frameworks for AI agents and frontier models. This resource tracks the capabilities of AI agent, providing insights into progress toward artificial super intelligence (ASI).
 
 This project is maintained by [Parni](https://x.com/ParnianBrk) and [Ian](https://x.com/ian_derrington). Follow [Supernal Intelligence](https://x.com/supernalasi) for more updates.
 
