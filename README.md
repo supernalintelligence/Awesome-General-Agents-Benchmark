@@ -1,23 +1,19 @@
 # Awesome AI Agent Benchmarks
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/supernalintelligence/awesome-ai-agent-benchmarks/main/assets/logo.png" alt="Supernal Intelligence Logo" width="300"/>
+  <img src="https://github.com/user-attachments/assets/2fc0cc17-4625-4368-afba-f373b442488c" alt="Supernal Intelligence Logo" width="700"/>
 </p>
+
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
-  <a href="https://github.com/supernalintelligence/awesome-ai-agent-benchmarks"><img src="https://img.shields.io/github/stars/supernalintelligence/awesome-ai-agent-benchmarks?style=social" alt="Stars"></a>
-  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+  <a href="https://github.com/orgs/supernalintelligence/repositories"><img src="https://img.shields.io/github/stars/supernalai/awesome-ai-agent-benchmarks?style=social" alt="Stars"></a>
 </p>
 
 <p align="center">
   <a href="https://x.com/supernalasi"><img src="https://img.shields.io/badge/follow-%40supernalasi-1DA1F2?logo=x&style=social" alt="Follow on X"></a>
   <a href="https://bsky.app/profile/supernalasi.bsky.social"><img src="https://img.shields.io/badge/Bluesky-supernalasi.bsky.social-3A88FE?style=flat&logo=bluesky&logoColor=white" alt="Bluesky"></a>
-  <a href="https://www.threads.com/supernalasi"><img src="https://img.shields.io/badge/Threads-supernalasi-000000?style=flat&logo=threads&logoColor=white" alt="Threads"></a>
-  <a href="https://discord.gg/J9pU82wP"><img src="https://img.shields.io/discord/1234827412?style=flat&label=Discord&logo=discord&logoColor=white&color=5865F2" alt="Discord"></a>
   <a href="https://supernalintelligence.com"><img src="https://img.shields.io/badge/Website-supernalintelligence.com-blue?style=flat&logo=safari&logoColor=white" alt="Website"></a>
 </p>
-
 
 
 A curated list of benchmarks, evaluations, and testing frameworks for AI agents and frontier models. This resource tracks the capabilities of AI agents, providing insights into progress toward artificial super intelligence (ASI).
