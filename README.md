@@ -18,7 +18,7 @@
   <a href="https://supernalintelligence.com"><img src="https://img.shields.io/badge/Website-supernalintelligence.com-blue?style=flat&logo=safari&logoColor=white" alt="Website"></a>
 </p>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 
 A curated list of benchmarks, evaluations, and testing frameworks for AI agents and frontier models. This resource tracks the capabilities of AI agent, providing insights into progress toward artificial super intelligence (ASI).
 
