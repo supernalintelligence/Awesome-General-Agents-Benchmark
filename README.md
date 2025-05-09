@@ -1,26 +1,29 @@
 # Awesome AI Agent Benchmarks
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/supernalai/awesome-ai-agent-benchmarks/main/assets/logo.png" alt="Supernal Intelligence Logo" width="300"/>
+  <img src="https://raw.githubusercontent.com/supernalintelligence/awesome-ai-agent-benchmarks/main/assets/logo.png" alt="Supernal Intelligence Logo" width="300"/>
 </p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <a href="https://github.com/orgs/supernalintelligence/repositories"><img src="https://img.shields.io/github/stars/supernalai/awesome-ai-agent-benchmarks?style=social" alt="Stars"></a>
+  <a href="https://github.com/supernalintelligence/awesome-ai-agent-benchmarks"><img src="https://img.shields.io/github/stars/supernalintelligence/awesome-ai-agent-benchmarks?style=social" alt="Stars"></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
 </p>
 
 <p align="center">
   <a href="https://x.com/supernalasi"><img src="https://img.shields.io/badge/follow-%40supernalasi-1DA1F2?logo=x&style=social" alt="Follow on X"></a>
   <a href="https://bsky.app/profile/supernalasi.bsky.social"><img src="https://img.shields.io/badge/Bluesky-supernalasi.bsky.social-3A88FE?style=flat&logo=bluesky&logoColor=white" alt="Bluesky"></a>
   <a href="https://www.threads.com/supernalasi"><img src="https://img.shields.io/badge/Threads-supernalasi-000000?style=flat&logo=threads&logoColor=white" alt="Threads"></a>
-  <a href="https://discord.gg/J9pU82wP"><img src="https://img.shields.io/discord/1234567890?style=flat&label=Discord&logo=discord&logoColor=white&color=5865F2" alt="Discord"></a>
+  <a href="https://discord.gg/J9pU82wP"><img src="https://img.shields.io/discord/1234827412?style=flat&label=Discord&logo=discord&logoColor=white&color=5865F2" alt="Discord"></a>
   <a href="https://supernalintelligence.com"><img src="https://img.shields.io/badge/Website-supernalintelligence.com-blue?style=flat&logo=safari&logoColor=white" alt="Website"></a>
 </p>
 
 
 
-A curated list of benchmarks, evaluations, and testing frameworks for AI agents and frontier models. This resource tracks the capabilities of AI agent, providing insights into progress toward artificial super intelligence (ASI).
+A curated list of benchmarks, evaluations, and testing frameworks for AI agents and frontier models. This resource tracks the capabilities of AI agents, providing insights into progress toward artificial super intelligence (ASI).
+
+> **Last Updated:** May 9, 2025
 
 This project is maintained by [Parni](https://x.com/ParnianBrk) and [Ian](https://x.com/ian_derrington). Follow [Supernal Intelligence](https://x.com/supernalasi) for more updates.
 
@@ -29,7 +32,36 @@ This project is maintained by [Parni](https://x.com/ParnianBrk) and [Ian](https:
 
 For more complete data and the latest information, please visit our website: [supernalintelligence.com](https://www.supernalintelligence.com/)
 
-If you see an error or want to contribute, please email [i@supernal.ai](mailto:i@supernal.ai)
+If you see an error or want to contribute, please email [i@supernal.ai](mailto:i@supernal.ai) or submit a PR.
+
+## Table of Contents
+
+- [What are AI Agent Benchmarks?](#what-are-ai-agent-benchmarks)
+- [Benchmark Selection Methodology](#benchmark-selection-methodology)
+- [General Reasoning Benchmarks](#general-reasoning-benchmarks)
+- [Agent-Specific Benchmarks](#agent-specific-benchmarks)
+- [Domain-Specific Benchmarks](#domain-specific-benchmarks)
+  - [Mathematical Reasoning](#mathematical-reasoning)
+  - [Scientific Reasoning](#scientific-reasoning)
+  - [Coding and Software Engineering](#coding-and-software-engineering)
+  - [Web and GUI Interaction](#web-and-gui-interaction)
+- [Multi-Modal Benchmarks](#multi-modal-benchmarks)
+- [Specialized Capability Benchmarks](#specialized-capability-benchmarks)
+  - [Tool Use and Planning](#tool-use-and-planning)
+  - [Skill Acquisition](#skill-acquisition)
+  - [Reasoning Paths](#reasoning-paths)
+- [Safety and Alignment Benchmarks](#safety-and-alignment-benchmarks)
+- [Benchmark Aggregators](#benchmark-aggregators)
+- [Mobile and Edge Devices Benchmarks](#mobile-and-edge-devices-benchmarks)
+- [Resources](#resources)
+  - [Communities](#communities)
+  - [Key Research Organizations](#key-research-organizations)
+  - [Research Papers](#research-papers)
+  - [Related Awesome Lists](#related-awesome-lists)
+- [Limitations of Current Benchmarks](#limitations-of-current-benchmarks)
+- [Commercial vs. Open-Source Performance](#commercial-vs-open-source-performance)
+- [Contribution](#contribution)
+- [License](#license)
 
 ## What are AI Agent Benchmarks?
 
@@ -43,16 +75,18 @@ AI agent benchmarks are standardized evaluation frameworks designed to assess th
 
 In the context of AGI research, these benchmarks help researchers, policymakers, and the public understand the rate and direction of AI progress, potentially identifying risks and opportunities as systems become more capable.
 
-## Contents
+## Benchmark Selection Methodology
 
-- [General Reasoning Benchmarks](#general-reasoning-benchmarks)
-- [Agent-Specific Benchmarks](#agent-specific-benchmarks)
-- [Domain-Specific Benchmarks](#domain-specific-benchmarks)
-- [Multi-Modal Benchmarks](#multi-modal-benchmarks)
-- [Specialized Capability Benchmarks](#specialized-capability-benchmarks)
-- [Safety and Alignment Benchmarks](#safety-and-alignment-benchmarks)
-- [Benchmark Aggregators](#benchmark-aggregators)
-- [Resources](#resources)
+The benchmarks included in this list are selected based on the following criteria:
+
+1. **Relevance**: Benchmarks must specifically test AI agent or frontier model capabilities
+2. **Rigor**: Must have a clearly defined evaluation methodology and metrics
+3. **Reproducibility**: Results should be independently verifiable
+4. **Impact**: The benchmark should be recognized or adopted by the research community
+5. **Recency**: Focus on benchmarks that represent current state-of-the-art challenges
+6. **Diversity**: We prioritize including benchmarks that cover different capabilities and domains
+
+We regularly review and update this list as new benchmarks emerge and existing ones evolve. Our goal is to provide a comprehensive yet focused resource that tracks meaningful progress in AI capabilities.
 
 ## General Reasoning Benchmarks
 
@@ -260,10 +294,38 @@ Benchmarks specialized for resource-constrained environments.
 - [Awesome GUI Agents](https://github.com/supernalintelligence/Awesome-Gui-Agents-/blob/main/README.md) - Curated list of GUI agents
 - [Awesome AI Agent Leaderboards ](https://github.com/supernalintelligence/Awesome-General-Agents-Leaderboard) - Comprehensive list of leaderboards for AI agents
 
+## Limitations of Current Benchmarks
+
+While benchmarks provide valuable insights into AI progress, they have important limitations:
+
+1. **Narrow Scope**: Many benchmarks test specific, isolated capabilities rather than integrated performance in open-ended scenarios
+2. **Overfitting**: Models can be specialized to perform well on specific benchmarks without generalizing to real-world tasks
+3. **Static Nature**: Benchmarks quickly become outdated as models improve, requiring continuous development of harder challenges
+4. **Lack of Adaptability**: Few benchmarks measure how AI systems learn and adapt in dynamic environments
+5. **Measurement Challenges**: Critical capabilities like creativity, common sense, and social intelligence remain difficult to quantify
+6. **Human Baseline Issues**: "Expert" human performance can be inconsistently defined across benchmarks
+7. **Limited Diversity**: Most benchmarks are primarily in English and centered on Western cultural contexts
+
+Researchers should consider these limitations when interpreting benchmark results and making claims about AI progress.
+
+## Commercial vs. Open-Source Performance
+
+The performance gap between commercial and open-source models continues to evolve:
+
+| Benchmark Type | Commercial Lead | Notable OSS Challengers | Gap Trend |
+|----------------|----------------|-------------------------|-----------|
+| General Reasoning | Substantial (10-20%) | Llama-3-70B, Mistral Large | Narrowing |
+| Mathematical Reasoning | Moderate (5-15%) | Gemma 2, DeepSeek MoE | Narrowing rapidly |
+| Code Generation | Small (3-8%) | WizardCoder, CodeLlama | Minimal gap |
+| Agent Tasks | Large (20-40%) | AutoGPT, BabyAGI | Widening |
+| Multimodal | Very large (30-50%) | LLaVA, CLIP | Steady gap |
+| Tool Use | Large (25-40%) | Toolformer-based models | Narrowing slowly |
+
+The gap appears to be smallest in straightforward language tasks and largest in complex reasoning, agent capabilities, and multimodal understanding. Recent trends suggest open-source models are catching up in some domains while commercial models continue to advance in others.
 
 ## Contribution
 
-Contributions welcome! Please read the [contribution guidelines](contributing.md) first or email [i@supernal.ai](mailto:i@supernal.ai) if you see an error or want to contribute.
+Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first or email [i@supernal.ai](mailto:i@supernal.ai) if you see an error or want to contribute.
 
 ## License
 
